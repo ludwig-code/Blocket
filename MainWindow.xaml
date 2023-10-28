@@ -1,0 +1,17 @@
+﻿<Window x:Class="blocket_for_pcs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:blocket_for_pcs"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        mc:Ignorable="d"
+        Title="Blocket" Height="450" Width="800" Icon="/Logotyp_RGB_Large.ico">
+    <Grid>
+        <DockPanel>
+            <wv2:WebView2 Name="webView"
+                  Source="https://www.blocket.se/"
+   />
+        </DockPanel>
+    </Grid>
+</Window>
